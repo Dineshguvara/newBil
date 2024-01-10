@@ -1,0 +1,125 @@
+// Customized css
+:root {
+  --primary_color: #111c76;
+  --secondary_color: #ffffff;
+}
+.js_end {
+  display: flex;
+  justify-content: flex-end;
+}
+.color_red {
+  color: red;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+  margin-top: 8px;
+}
+.p-10 {
+  padding: 10px;
+}
+.mrg-2 {
+  margin: 15px 5px;
+}
+.py_20 {
+  padding: 20px 5px !important ;
+}
+.mr_5 {
+  margin-right: 8px !important;
+}
+.fz-13 {
+  font-size: 13px !important;
+}
+.cap_letter {
+  text-transform: uppercase !important;
+}
+.text_bold {
+  font-weight: 500;
+}
+.main_head {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 2px 10px;
+  padding: 15px 10px;
+}
+.finder {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 10px;
+}
+.button,
+.form_header,
+.button_hover {
+  color: var(--secondary_color) !important;
+  background-color: var(--primary_color) !important;
+}
+.form_label {
+  text-transform: uppercase !important;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.table_label {
+  text-transform: uppercase !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  background-color: var(--primary_color) !important;
+  color: var(--secondary_color) !important;
+  border-right: 1px solid #ffffff;
+}
+.custom_input {
+  width: 100px;
+}
+.custom_input3 {
+  width: 30%;
+  margin-left: 25px;
+}
+.btn_apnd {
+  font-size: 15px !important;
+  background-color: #ffffff !important;
+  display: flex;
+  flex-direction: row;
+  color: var(--primary_color);
+  border: none !important ;
+}
+.btn_apnd:hover {
+  background-color: #ffffff !important;
+  color: var(--primary_color);
+}
+.d_block {
+  display: flex;
+  flex-direction: column;
+}
+.d_flex {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 6px;
+  text-align: left !important;
+  // margin-left: auto !important;
+}
+.d_flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+// Override CSS
+.qDYwR {
+  padding: 25px;
+  background-color: white;
+  max-height: none !important;
+}
+.goZmTm {
+  padding: 14px 16px 5px 24px !important;
+}
+.input-group {
+  width: 20% !important;
+}
+.table > thead {
+  vertical-align: middle;
+  text-align: center;
+}
+.table > :not(caption) > * > * {
+  padding: 10px 6px !important;
+}
